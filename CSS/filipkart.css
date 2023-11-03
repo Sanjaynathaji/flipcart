@@ -1,0 +1,59 @@
+ul.navbar {
+  list-style-type: none;
+  margin: 2;
+  padding: 2;
+  background-color:chocolate;
+  overflow: hidden;
+}
+
+     ul.navbar li {
+                     float:left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: blue;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+ul.navbar li a:hover {
+  background-color:white;
+  color:blue;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+    .product {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+      width: 70%;
+      height:fit-content;
+  
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .product p {
+      margin: 10px 0;
+    }
+    
+    .buy-button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+   
+
